@@ -1,0 +1,7 @@
+# from https://github.com/MidnightCommander/mc/blob/master/po/.gitignore
+*.cat
+*.gmo
+*.mo
+*.msg
+*.pox
+*.pot
