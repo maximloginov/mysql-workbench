@@ -1,22 +1,21 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: mysql-workbench\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-08 01:03+0700\n"
-"PO-Revision-Date: 2022-02-07 18:46\n"
+"PO-Revision-Date: 2022-02-08 01:27+0700\n"
 "Last-Translator: Maxim Loginov <maxim.loginov@mail.ru>\n"
-"Language-Team: Russian\n"
+"Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0.1\n"
-"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: mysql-workbench\n"
-"X-Crowdin-Project-ID: 497855\n"
-"X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /translation-ru/po/ru.po\n"
-"X-Crowdin-File-ID: 4\n"
 
 #: ../res/wbdata/dbquery_toolbar.xml:28
 msgid "Create a new SQL tab for executing queries"
@@ -47,7 +46,8 @@ msgid "Create a new view in the active schema in the connected server"
 msgstr ""
 
 #: ../res/wbdata/dbquery_toolbar.xml:109
-msgid "Create a new stored procedure in the active schema in the connected server"
+msgid ""
+"Create a new stored procedure in the active schema in the connected server"
 msgstr ""
 
 #: ../res/wbdata/dbquery_toolbar.xml:119
@@ -55,7 +55,8 @@ msgid "Create a new function in the active schema in the connected server"
 msgstr ""
 
 #: ../res/wbdata/dbquery_toolbar.xml:136
-msgid "Search table data for text in objects selected in the sidebar schema tree"
+msgid ""
+"Search table data for text in objects selected in the sidebar schema tree"
 msgstr ""
 
 #: ../res/wbdata/dbquery_toolbar.xml:152
@@ -1100,7 +1101,8 @@ msgid "Place a Relationship Using Existing Columns"
 msgstr ""
 
 #: ../library/forms/fs_object_selector.cpp:225
-msgid "A file with the selected name already exists, do you want to replace it?"
+msgid ""
+"A file with the selected name already exists, do you want to replace it?"
 msgstr ""
 
 #: ../library/forms/fs_object_selector.cpp:226
@@ -1395,7 +1397,9 @@ msgid "Initialization Error"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:891
-msgid "There was an error during initialization of Workbench, some functionality may not work."
+msgid ""
+"There was an error during initialization of Workbench, some functionality "
+"may not work."
 msgstr ""
 
 #. SSH tunnel manager is created on first creation of a connection.
@@ -1413,17 +1417,23 @@ msgid "Error executing startup action"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:1106
-msgid "An error occurred while the application executed the given startup action. The returned error is:\n\n"
+msgid ""
+"An error occurred while the application executed the given startup action. "
+"The returned error is:\n"
+"\n"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:1108
-msgid "\n\n"
+msgid ""
+"\n"
+"\n"
 "See also the output window."
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:1657
 #: ../backend/wbprivate/workbench/wb_context.cpp:1674
-msgid "The file is not a valid MySQL Workbench options file.\n"
+msgid ""
+"The file is not a valid MySQL Workbench options file.\n"
 "The file will skipped and settings are reset to their default values."
 msgstr ""
 
@@ -1432,7 +1442,8 @@ msgid "Error while loading options"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:1883
-msgid "The file is not a valid MySQL Workbench state file.\n"
+msgid ""
+"The file is not a valid MySQL Workbench state file.\n"
 "The file will skipped and the application starts in its default state."
 msgstr ""
 
@@ -1449,7 +1460,10 @@ msgid "New Document"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2051
-msgid "Only one model can be open at a time. Do you want to save pending changes to the document?\n\n"
+msgid ""
+"Only one model can be open at a time. Do you want to save pending changes to "
+"the document?\n"
+"\n"
 "If you don't save your changes, they will be lost."
 msgstr ""
 
@@ -1504,12 +1518,17 @@ msgid "Open Document"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2248
-msgid "Only one model can be open at a time. Do you wish to save pending changes to the currently open model?\n\n"
+msgid ""
+"Only one model can be open at a time. Do you wish to save pending changes to "
+"the currently open model?\n"
+"\n"
 "If you don't they will be lost."
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2261
-msgid "Opening another model will close the currently open model.\n\n"
+msgid ""
+"Opening another model will close the currently open model.\n"
+"\n"
 "Do you wish to proceed opening it?"
 msgstr ""
 
@@ -1529,7 +1548,9 @@ msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2275
 #, c-format
-msgid "The model %s is loading now and will be available in a moment.\n\n"
+msgid ""
+"The model %s is loading now and will be available in a moment.\n"
+"\n"
 " Please stand by..."
 msgstr ""
 
@@ -1540,13 +1561,17 @@ msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2327
 #, c-format
-msgid "The model in file '%s' contained a problem which was successfully recovered:\n"
+msgid ""
+"The model in file '%s' contained a problem which was successfully "
+"recovered:\n"
 " %s"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2332
 #, c-format
-msgid "The model in file '%s' contained problems which were successfully recovered:\n"
+msgid ""
+"The model in file '%s' contained problems which were successfully "
+"recovered:\n"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2418
@@ -1558,7 +1583,9 @@ msgid "Close Document"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context.cpp:2442
-msgid "Do you want to save pending changes to the document?\n\n"
+msgid ""
+"Do you want to save pending changes to the document?\n"
+"\n"
 "If you don't save your changes, they will be lost."
 msgstr ""
 
@@ -1684,7 +1711,10 @@ msgid "Starting Doc Lib"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context_ui.cpp:384
-msgid "The MySQL Doc Library is opening currently, which should be finished in a moment .\n\n"
+msgid ""
+"The MySQL Doc Library is opening currently, which should be finished in a "
+"moment .\n"
+"\n"
 "Please stand by..."
 msgstr ""
 
@@ -1697,7 +1727,8 @@ msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context_ui.cpp:578
 #: ../backend/wbprivate/workbench/wb_context_ui.cpp:592
-msgid "<Multiple Items>\n"
+msgid ""
+"<Multiple Items>\n"
 "That means not all selected items have same comment.\n"
 "Beware applying changes will override comments for all selected objects."
 msgstr ""
@@ -1734,7 +1765,9 @@ msgid "The selected group is invalid, should not contain the \"/\" character."
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context_ui_home.cpp:171
-msgid "Unable to perform the movement as there's an entry with the same name in the target group"
+msgid ""
+"Unable to perform the movement as there's an entry with the same name in the "
+"target group"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context_ui_home.cpp:335
@@ -1828,7 +1861,8 @@ msgid "Do you want to delete connection %s?"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_context_ui_home.cpp:662
-msgid "Pick a group to move the selected connection to\n"
+msgid ""
+"Pick a group to move the selected connection to\n"
 "or type a name to move it to a new one."
 msgstr ""
 
@@ -1891,7 +1925,9 @@ msgstr ""
 #. _refersher is a smart pointer and is automatically freed.
 #: ../backend/wbprivate/workbench/wmi.cpp:166
 #: ../backend/wbprivate/workbench/wmi.cpp:175
-msgid "WMI - Could not create monitor object.\n\n"
+msgid ""
+"WMI - Could not create monitor object.\n"
+"\n"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wmi.cpp:182
@@ -1911,7 +1947,9 @@ msgid "Could not connect to target machine.\n"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wmi.cpp:450
-msgid "WMI enumeration failed.\n\n"
+msgid ""
+"WMI enumeration failed.\n"
+"\n"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_tunnel.cpp:158
@@ -1943,7 +1981,8 @@ msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:263
 #, c-format
-msgid "Could not lock the document %s.\n"
+msgid ""
+"Could not lock the document %s.\n"
 "The file is probably already opened in another instance of the application."
 msgstr ""
 
@@ -1953,9 +1992,11 @@ msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:281
 #, c-format
-msgid "The document %s was not properly closed in a previous session on %s.\n"
+msgid ""
+"The document %s was not properly closed in a previous session on %s.\n"
 "The file you're about to open was last saved %s.\n"
-"Would you like to use the recovered model? Continuing without recovering will remove the auto-saved data."
+"Would you like to use the recovered model? Continuing without recovering "
+"will remove the auto-saved data."
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:287
@@ -2011,7 +2052,10 @@ msgid "Backup file is read-only"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:736
-msgid "A backup file for this model already exists and must be removed, but is read only.\n\n"
+msgid ""
+"A backup file for this model already exists and must be removed, but is read "
+"only.\n"
+"\n"
 "Do you want to delete it anyway?"
 msgstr ""
 
@@ -2023,8 +2067,11 @@ msgstr ""
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:745
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:765
 #, c-format
-msgid "The read-only state of the file:\n\n"
-"%s\n\n"
+msgid ""
+"The read-only state of the file:\n"
+"\n"
+"%s\n"
+"\n"
 "cannot be changed. Giving up - the model file will not be saved."
 msgstr ""
 
@@ -2033,7 +2080,9 @@ msgid "Model file is read-only"
 msgstr ""
 
 #: ../backend/wbprivate/workbench/wb_model_file.cpp:758
-msgid "The model file is read-only.\n\n"
+msgid ""
+"The model file is read-only.\n"
+"\n"
 "Do you want to overwrite it anyway?"
 msgstr ""
 
@@ -2171,7 +2220,8 @@ msgid "<b>Collation:</b>  "
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_live_schema_tree.cpp:162
-msgid "<b>Definition:</b><table style=\"border: none; border-collapse: collapse;\">"
+msgid ""
+"<b>Definition:</b><table style=\"border: none; border-collapse: collapse;\">"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_live_schema_tree.cpp:200
@@ -2181,7 +2231,8 @@ msgid "<b>Definition:</b><br>"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_live_schema_tree.cpp:310
-msgid "<b>Columns:</b><table style=\"border: none; border-collapse: collapse;\">"
+msgid ""
+"<b>Columns:</b><table style=\"border: none; border-collapse: collapse;\">"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_live_schema_tree.cpp:339
@@ -2258,7 +2309,9 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/execute_routine_wizard.cpp:68
 #, c-format
-msgid "Enter values for parameters of your %s and click <Execute> to create an SQL editor and run the call:"
+msgid ""
+"Enter values for parameters of your %s and click <Execute> to create an SQL "
+"editor and run the call:"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:227
@@ -2269,14 +2322,17 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:228
 #, c-format
-msgid "SQL script %s has unsaved changes.\n"
+msgid ""
+"SQL script %s has unsaved changes.\n"
 "Would you like to Save these changes before closing?"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:254
 #, c-format
-msgid "An edited recordset has unsaved changes in %s.\n"
-"Would you like to save these changes, discard them or cancel closing the page?"
+msgid ""
+"An edited recordset has unsaved changes in %s.\n"
+"Would you like to save these changes, discard them or cancel closing the "
+"page?"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:257
@@ -2286,8 +2342,10 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:261
 #, c-format
-msgid "There are %i recordsets with unsaved changes in %s.\n"
-"Would you like to save these changes, discard them or cancel closing to review them manually?"
+msgid ""
+"There are %i recordsets with unsaved changes in %s.\n"
+"Would you like to save these changes, discard them or cancel closing to "
+"review them manually?"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:264
@@ -2296,7 +2354,8 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:281
 #, c-format
-msgid "An error occurred while saving changes to the recordset %s\n"
+msgid ""
+"An error occurred while saving changes to the recordset %s\n"
 "%s"
 msgstr ""
 
@@ -2310,8 +2369,12 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:482
 #, c-format
-msgid "The file \"%s\" has a size of %.2f MB. Are you sure you want to open this large file?\n\n"
-"Note: code folding will be disabled for this file.\n\n"
+msgid ""
+"The file \"%s\" has a size of %.2f MB. Are you sure you want to open this "
+"large file?\n"
+"\n"
+"Note: code folding will be disabled for this file.\n"
+"\n"
 "Click Run SQL Script... to just execute the file."
 msgstr ""
 
@@ -2362,7 +2425,9 @@ msgid "Save the script to a file."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:766
-msgid "Execute the selected portion of the script or everything, if there is no selection"
+msgid ""
+"Execute the selected portion of the script or everything, if there is no "
+"selection"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:774
@@ -2374,31 +2439,44 @@ msgid "Execute the EXPLAIN command on the statement under the cursor"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:791
-msgid "Stop the query being executed (the connection to the DB server will not be restarted and any open transactions will remain open)"
+msgid ""
+"Stop the query being executed (the connection to the DB server will not be "
+"restarted and any open transactions will remain open)"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:803
-msgid "Toggle whether execution of SQL script should continue after failed statements"
+msgid ""
+"Toggle whether execution of SQL script should continue after failed "
+"statements"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:815
-msgid "Commit the current transaction.\n"
-"NOTE: all query tabs in the same connection share the same transaction. To have independent transactions, you must open a new connection."
+msgid ""
+"Commit the current transaction.\n"
+"NOTE: all query tabs in the same connection share the same transaction. To "
+"have independent transactions, you must open a new connection."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:825
-msgid "Rollback the current transaction.\n"
-"NOTE: all query tabs in the same connection share the same transaction. To have independent transactions, you must open a new connection."
+msgid ""
+"Rollback the current transaction.\n"
+"NOTE: all query tabs in the same connection share the same transaction. To "
+"have independent transactions, you must open a new connection."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:836
-msgid "Toggle autocommit mode. When enabled, each statement will be committed immediately.\n"
-"NOTE: all query tabs in the same connection share the same transaction. To have independent transactions, you must open a new connection."
+msgid ""
+"Toggle autocommit mode. When enabled, each statement will be committed "
+"immediately.\n"
+"NOTE: all query tabs in the same connection share the same transaction. To "
+"have independent transactions, you must open a new connection."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:847
-msgid "Set limit for number of rows returned by queries.\n"
-"Workbench will automatically add the LIMIT clause with the configured number of rows to SELECT queries."
+msgid ""
+"Set limit for number of rows returned by queries.\n"
+"Workbench will automatically add the LIMIT clause with the configured number "
+"of rows to SELECT queries."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:858
@@ -2407,7 +2485,8 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_panel.cpp:921
 #, c-format
-msgid "File %s %swas changed from outside MySQL Workbench.\n"
+msgid ""
+"File %s %swas changed from outside MySQL Workbench.\n"
 "Would you like to discard your changes and reload it?"
 msgstr ""
 
@@ -2418,7 +2497,8 @@ msgstr ""
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:96
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:76
 #, c-format
-msgid "Error Code: %i\n"
+msgid ""
+"Error Code: %i\n"
 "%s"
 msgstr ""
 
@@ -2478,23 +2558,29 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2098
 #: ../backend/wbpublic/sqlide/recordset_cdbc_storage.cpp:459
-msgid "Query execution has been stopped, the connection to the DB server was not restarted, any open transaction remains open"
+msgid ""
+"Query execution has been stopped, the connection to the DB server was not "
+"restarted, any open transaction remains open"
 msgstr ""
 
 #. not default DB selected
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2126
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2239
 #, c-format
-msgid "Error Code: %i. %s\n"
-"Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar."
+msgid ""
+"Error Code: %i. %s\n"
+"Select the default DB to be used by double-clicking its name in the SCHEMAS "
+"list in the sidebar."
 msgstr ""
 
 #. safe mode
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2131
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2244
 #, c-format
-msgid "Error Code: %i. %s\n"
-"To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect."
+msgid ""
+"Error Code: %i. %s\n"
+"To disable safe mode, toggle the option in Preferences -> SQL Editor and "
+"reconnect."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2136
@@ -2531,7 +2617,9 @@ msgid "Result set limit reached"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2355
-msgid "There were more results than result tabs could be opened, because the set maximum limit was reached. You can change this limit in the preferences."
+msgid ""
+"There were more results than result tabs could be opened, because the set "
+"maximum limit was reached. You can change this limit in the preferences."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2362
@@ -2554,9 +2642,12 @@ msgid "Apply Changes to Recordset"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2601
-msgid "Autocommit is currently disabled and a transaction might be open.\n"
-"Recordset changes will be applied within that transaction and will be left uncommited until you explicitly commit it manually.\n"
-"If you want it to be executed separately, click Cancel and commit the transaction first."
+msgid ""
+"Autocommit is currently disabled and a transaction might be open.\n"
+"Recordset changes will be applied within that transaction and will be left "
+"uncommited until you explicitly commit it manually.\n"
+"If you want it to be executed separately, click Cancel and commit the "
+"transaction first."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form.cpp:2605
@@ -2614,7 +2705,10 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_snippets.cpp:64
 #, c-format
-msgid "You are about to restore the \"%s\" snippet list to its original state. All changes will be lost.\n\n"
+msgid ""
+"You are about to restore the \"%s\" snippet list to its original state. All "
+"changes will be lost.\n"
+"\n"
 "Do you want to continue?"
 msgstr ""
 
@@ -2650,7 +2744,9 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:390
 #, c-format
-msgid "To enable searching objects in the remote server, MySQL Workbench needs to create a stored procedure in a custom schema (%s)."
+msgid ""
+"To enable searching objects in the remote server, MySQL Workbench needs to "
+"create a stored procedure in a custom schema (%s)."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:393
@@ -2660,8 +2756,13 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:402
 #, c-format
-msgid "The user %s has no privileges to create the required schema and stored procedures to enable remote search in this server. \n"
-"Ensure your database administrator creates a schema for internal use of MySQL Workbench with full privileges for the user %s, once created configure it in Preferences->General->Internal Workbench Schema and retry.\n\n"
+msgid ""
+"The user %s has no privileges to create the required schema and stored "
+"procedures to enable remote search in this server. \n"
+"Ensure your database administrator creates a schema for internal use of "
+"MySQL Workbench with full privileges for the user %s, once created configure "
+"it in Preferences->General->Internal Workbench Schema and retry.\n"
+"\n"
 "%s."
 msgstr ""
 
@@ -2675,8 +2776,12 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:634
 #, c-format
-msgid "The user %s has no privileges on %s to create temporal tables or execute required stored procedures used in remote search in this server.\n"
-"Ensure your database administrator grants you full access to the schema %s and retry.\n\n"
+msgid ""
+"The user %s has no privileges on %s to create temporal tables or execute "
+"required stored procedures used in remote search in this server.\n"
+"Ensure your database administrator grants you full access to the schema %s "
+"and retry.\n"
+"\n"
 "%s."
 msgstr ""
 
@@ -2698,7 +2803,8 @@ msgid "No Schema Selected"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:1348
-msgid "A default schema must be set by double clicking its name in the SCHEMA list."
+msgid ""
+"A default schema must be set by double clicking its name in the SCHEMA list."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:1438
@@ -2721,7 +2827,13 @@ msgid "Error Parsing DDL for %s"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:2056
-msgid "The object's DDL retrieved from the server is inconsistent with respect to the SQL_MODE variable set for the connection. In particular the current state of the ANSI_QUOTES flag contradicts the value set when the object had been created. This may lead to errors when trying to apply changes. As a workaround you may want to temporarily change the SQL_MODE variable to its previous value.\n"
+msgid ""
+"The object's DDL retrieved from the server is inconsistent with respect to "
+"the SQL_MODE variable set for the connection. In particular the current "
+"state of the ANSI_QUOTES flag contradicts the value set when the object had "
+"been created. This may lead to errors when trying to apply changes. As a "
+"workaround you may want to temporarily change the SQL_MODE variable to its "
+"previous value.\n"
 "Do you want to view the DDL or cancel processing it?"
 msgstr ""
 
@@ -2731,7 +2843,8 @@ msgid "View DDL"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:2074
-msgid "There was an error while parsing the DDL retrieved from the server.\n"
+msgid ""
+"There was an error while parsing the DDL retrieved from the server.\n"
 "Do you want to view the DDL or cancel processing it?"
 msgstr ""
 
@@ -2748,12 +2861,14 @@ msgid "Apply Changes to Object"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:2099
-msgid "The object's DDL statement contains syntax errors.\n"
+msgid ""
+"The object's DDL statement contains syntax errors.\n"
 "You cannot modify this object until you fix the errors."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_tree_controller.cpp:2111
-msgid "The tables's trigger SQL code contains errors.\n"
+msgid ""
+"The tables's trigger SQL code contains errors.\n"
 "This will lead to invalid sql generated.\n"
 "Are you sure you want to apply the DDL statement as is?"
 msgstr ""
@@ -2813,7 +2928,9 @@ msgid "Selection empty"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form_ui.cpp:393
-msgid "Select a schema, table or index object in the schema tree to show the inspector."
+msgid ""
+"Select a schema, table or index object in the schema tree to show the "
+"inspector."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_form_ui.cpp:509
@@ -2887,7 +3004,9 @@ msgid "Replace the current text by this snippet"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/query_side_palette.cpp:573
-msgid "Insert the snippet text at the current caret position replacing selected text if there is any"
+msgid ""
+"Insert the snippet text at the current caret position replacing selected "
+"text if there is any"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/query_side_palette.cpp:582
@@ -2920,7 +3039,8 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_context_sqlide.cpp:403
 #, c-format
-msgid "Do you want to revert to the most recently saved version of '%s'?\n"
+msgid ""
+"Do you want to revert to the most recently saved version of '%s'?\n"
 "Any changes since them will be lost."
 msgstr ""
 
@@ -2935,13 +3055,17 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_context_sqlide.cpp:866
 #, c-format
-msgid "An SQL editor instance for '%s' is opening and should be available in a moment.\n\n"
+msgid ""
+"An SQL editor instance for '%s' is opening and should be available in a "
+"moment.\n"
+"\n"
 "Please stand by..."
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_buffer.cpp:60
 #, c-format
-msgid "An error occurred during auto-save:\n"
+msgid ""
+"An error occurred during auto-save:\n"
 "%s"
 msgstr ""
 
@@ -2985,13 +3109,15 @@ msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_buffer.cpp:632
 #, c-format
-msgid "SQL script %s has unsaved changes.\n"
+msgid ""
+"SQL script %s has unsaved changes.\n"
 "Would you like to Save these changes?"
 msgstr ""
 
 #: ../backend/wbprivate/sqlide/wb_sql_editor_buffer.cpp:658
 #, c-format
-msgid "Could not open file %s\n"
+msgid ""
+"Could not open file %s\n"
 "%s"
 msgstr ""
 
@@ -3015,7 +3141,8 @@ msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:458
 #, c-format
-msgid "The schema '%s' contains objects (%s).\n"
+msgid ""
+"The schema '%s' contains objects (%s).\n"
 "Do you want to delete it with all its contents?"
 msgstr ""
 
@@ -3154,7 +3281,9 @@ msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:815
 #, c-format
-msgid "'%s' is already in this diagram. Would you like to duplicate the schema object and place a copy?"
+msgid ""
+"'%s' is already in this diagram. Would you like to duplicate the schema "
+"object and place a copy?"
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:817
@@ -3197,7 +3326,9 @@ msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:1143
 #, c-format
-msgid "There are %lu routines in '%s' that are not in any other group, would you like to delete them?"
+msgid ""
+"There are %lu routines in '%s' that are not in any other group, would you "
+"like to delete them?"
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:1179
@@ -3213,7 +3344,9 @@ msgid "Delete Foreign Key Columns"
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical.cpp:1215
-msgid "Please confirm whether columns used by the foreign key should be deleted too.\n"
+msgid ""
+"Please confirm whether columns used by the foreign key should be deleted "
+"too.\n"
 "Columns used by other foreign keys will be left untouched."
 msgstr ""
 
@@ -3324,7 +3457,9 @@ msgid "Remove Tags for Object"
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:57
-msgid "Select the Table to receive the Foreign Key or the Column(s) to turn into a Foreign Key."
+msgid ""
+"Select the Table to receive the Foreign Key or the Column(s) to turn into a "
+"Foreign Key."
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:59
@@ -3358,7 +3493,9 @@ msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:168
 #, c-format
-msgid "Column has already been picked, please pick another or pick the referenced table."
+msgid ""
+"Column has already been picked, please pick another or pick the referenced "
+"table."
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:177
@@ -3369,7 +3506,9 @@ msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:184
 #, c-format
-msgid "Pick other columns that belong to the Foreign Key or proceed to pick the referenced table or matching columns in it."
+msgid ""
+"Pick other columns that belong to the Foreign Key or proceed to pick the "
+"referenced table or matching columns in it."
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:226
@@ -3391,7 +3530,8 @@ msgstr ""
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:317
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:398
 #, c-format
-msgid "Relationship between '%s' and '%s' created through an associative table."
+msgid ""
+"Relationship between '%s' and '%s' created through an associative table."
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_component_physical_relationship.cpp:320
@@ -3453,7 +3593,8 @@ msgid "Foreign Key Columns"
 msgstr ""
 
 #: ../backend/wbprivate/model/relationship_canvas_floater.cpp:58
-msgid "Pick one or more columns\n"
+msgid ""
+"Pick one or more columns\n"
 "for the foreign key."
 msgstr ""
 
@@ -3468,7 +3609,8 @@ msgid "Referenced Columns"
 msgstr ""
 
 #: ../backend/wbprivate/model/relationship_canvas_floater.cpp:77
-msgid "Pick matching columns for\n"
+msgid ""
+"Pick matching columns for\n"
 "the referenced table."
 msgstr ""
 
@@ -3691,7 +3833,8 @@ msgstr ""
 #: ../backend/wbprivate/model/wb_context_model.cpp:1169
 #: ../backend/wbprivate/model/wb_context_model.cpp:1194
 #: ../backend/wbprivate/model/wb_context_model.cpp:1232
-msgid "Current diagram cannot be exported as image, please select a diagram first."
+msgid ""
+"Current diagram cannot be exported as image, please select a diagram first."
 msgstr ""
 
 #: ../backend/wbprivate/model/wb_context_model.cpp:1157
@@ -4180,8 +4323,11 @@ msgid "Toggle SQL generation for '%s.%s'"
 msgstr ""
 
 #: ../backend/wbpublic/grtdb/editor_table.cpp:2319
-msgid "You can't use a SET NULL action if one of the referencing columns is set to NOT NULL.\n"
-"Would you like to revert the change or remove the NOT NULL from the column attribute?"
+msgid ""
+"You can't use a SET NULL action if one of the referencing columns is set to "
+"NOT NULL.\n"
+"Would you like to revert the change or remove the NOT NULL from the column "
+"attribute?"
 msgstr ""
 
 #: ../backend/wbpublic/grtdb/editor_table.cpp:2321
@@ -4485,8 +4631,11 @@ msgid "Review SQL Script"
 msgstr ""
 
 #: ../backend/wbpublic/sqlide/sql_script_run_wizard.cpp:43
-msgid "Please review the following SQL script that will be applied to the database.\n"
-"Note that once applied, these statements may not be revertible without losing some of the data.\n"
+msgid ""
+"Please review the following SQL script that will be applied to the "
+"database.\n"
+"Note that once applied, these statements may not be revertible without "
+"losing some of the data.\n"
 "You can also manually change the SQL statements before execution."
 msgstr ""
 
@@ -4501,7 +4650,10 @@ msgstr ""
 
 #: ../backend/wbpublic/sqlide/sql_script_run_wizard.cpp:79
 #: ../frontend/common/preferences_form.cpp:1083
-msgid "If the currently connected server supports online DDL then use the selected algorithm as default. This setting can also be adjusted for each alter operation."
+msgid ""
+"If the currently connected server supports online DDL then use the selected "
+"algorithm as default. This setting can also be adjusted for each alter "
+"operation."
 msgstr ""
 
 #: ../backend/wbpublic/sqlide/sql_script_run_wizard.cpp:83
@@ -4510,7 +4662,9 @@ msgstr ""
 
 #: ../backend/wbpublic/sqlide/sql_script_run_wizard.cpp:100
 #: ../frontend/common/preferences_form.cpp:1100
-msgid "If the currently connected server supports online DDL then use the selected lock as default. This setting can also be adjusted for each alter operation."
+msgid ""
+"If the currently connected server supports online DDL then use the selected "
+"lock as default. This setting can also be adjusted for each alter operation."
 msgstr ""
 
 #: ../backend/wbpublic/sqlide/sql_script_run_wizard.cpp:180
@@ -4553,7 +4707,9 @@ msgstr ""
 
 #: ../backend/wbpublic/sqlide/recordset_be.cpp:223
 #, c-format
-msgid "There are unsaved changes to the recordset data: %s. Do you want to apply them before closing?"
+msgid ""
+"There are unsaved changes to the recordset data: %s. Do you want to apply "
+"them before closing?"
 msgstr ""
 
 #: ../backend/wbpublic/sqlide/recordset_be.cpp:225
@@ -4633,7 +4789,8 @@ msgid "Connect to Database"
 msgstr ""
 
 #: ../backend/wbpublic/grtui/wizard_progress_page.cpp:104
-msgid "The following tasks will now be executed. Please monitor the execution.\n"
+msgid ""
+"The following tasks will now be executed. Please monitor the execution.\n"
 "Press Show Logs to see the execution logs."
 msgstr ""
 
@@ -4720,7 +4877,8 @@ msgid "Cannot Delete Connection"
 msgstr ""
 
 #: ../backend/wbpublic/grtui/grtdb_connection_editor.cpp:243
-msgid "One or more Database Server Instances use this connection.\n"
+msgid ""
+"One or more Database Server Instances use this connection.\n"
 "You must remove them before deleting this connection."
 msgstr ""
 
@@ -4824,7 +4982,9 @@ msgid "Cannot Open Directory"
 msgstr ""
 
 #: ../backend/wbpublic/grtui/grtdb_connect_panel.cpp:782
-msgid "The directory that should contain the files does not exist yet. Maybe you need to run the SSL Wizard first."
+msgid ""
+"The directory that should contain the files does not exist yet. Maybe you "
+"need to run the SSL Wizard first."
 msgstr ""
 
 #: ../backend/wbpublic/grtui/grtdb_connect_panel.cpp:856
@@ -4878,7 +5038,8 @@ msgstr ""
 
 #: ../backend/wbpublic/grtui/file_charset_dialog.cpp:172
 #, c-format
-msgid "The file contents could not be converted from '%s' to UTF-8:\n"
+msgid ""
+"The file contents could not be converted from '%s' to UTF-8:\n"
 "%s\n"
 msgstr ""
 
@@ -4889,7 +5050,8 @@ msgstr ""
 
 #: ../backend/wbpublic/grtui/file_charset_dialog.cpp:188
 #, c-format
-msgid "Some of the file contents could not be converted from '%s' to UTF-8:\n"
+msgid ""
+"Some of the file contents could not be converted from '%s' to UTF-8:\n"
 "%s\n"
 "Click Ignore to open the partial file anyway, or choose another encoding."
 msgstr ""
@@ -5089,7 +5251,9 @@ msgid "Unsupported Execution"
 msgstr ""
 
 #: ../frontend/common/grt_shell_window.cpp:1126
-msgid "This script editor is meant for developing Workbench plugins and scripts. SQL scripts should be opened and executed in the SQL Editor."
+msgid ""
+"This script editor is meant for developing Workbench plugins and scripts. "
+"SQL scripts should be opened and executed in the SQL Editor."
 msgstr ""
 
 #: ../frontend/common/grt_shell_window.cpp:1272
@@ -5109,8 +5273,15 @@ msgid "Introduction"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:74
-msgid "This dialog will help you to set up remote management for your connection. At the start a connection attempt is made to determine server version and operating system of the target machine. This allows you to validate the connection settings and allows the wizard to pick a meaningful configuration preset. If this attempt fails you can still continue, however.\n\n"
-"Continue to the next page to start the connection. This might take a few moments."
+msgid ""
+"This dialog will help you to set up remote management for your connection. "
+"At the start a connection attempt is made to determine server version and "
+"operating system of the target machine. This allows you to validate the "
+"connection settings and allows the wizard to pick a meaningful configuration "
+"preset. If this attempt fails you can still continue, however.\n"
+"\n"
+"Continue to the next page to start the connection. This might take a few "
+"moments."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:87
@@ -5122,7 +5293,9 @@ msgid "Testing the Database Connection"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:91
-msgid "The database connection information is being tested. This might take a few moments depending on your network connection."
+msgid ""
+"The database connection information is being tested. This might take a few "
+"moments depending on your network connection."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:94
@@ -5188,7 +5361,12 @@ msgid "Operating System Selection"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:294
-msgid "Select the operating system and the type of database installation on the target machine. If you configure a Linux target and you are unsure about the type of database installation select the (Vendor Package) variant. If your specific operating system is not in this list, select a related variant. It can later be customized, if needed."
+msgid ""
+"Select the operating system and the type of database installation on the "
+"target machine. If you configure a Linux target and you are unsure about the "
+"type of database installation select the (Vendor Package) variant. If your "
+"specific operating system is not in this list, select a related variant. It "
+"can later be customized, if needed."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:307
@@ -5220,7 +5398,11 @@ msgid "Set remote SSH configuration parameters"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:546
-msgid "In order to remotely configure this database instance an SSH account on this host with appropriate privileges is required. This account needs write access to the database configuration file, read access to the database logs and privileges to start/stop the database service/daemon."
+msgid ""
+"In order to remotely configure this database instance an SSH account on this "
+"host with appropriate privileges is required. This account needs write "
+"access to the database configuration file, read access to the database logs "
+"and privileges to start/stop the database service/daemon."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:560
@@ -5267,12 +5449,19 @@ msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:690
 #: ../frontend/common/new_server_instance_wizard.cpp:768
-msgid "Remote Windows management requires a user account on the remote machine which is allowed to connect remotely and also has the required privileges to query system status and to control services. For configuration file manipulation read/write access is needed to the file. Depending on your environment several ways of accessing that file are possible.\n\n"
+msgid ""
+"Remote Windows management requires a user account on the remote machine "
+"which is allowed to connect remotely and also has the required privileges to "
+"query system status and to control services. For configuration file "
+"manipulation read/write access is needed to the file. Depending on your "
+"environment several ways of accessing that file are possible.\n"
+"\n"
 "Examples are mapped drives, network shares and administrative shares:"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:700
-msgid "M:\\<path to file>\\my.ini\n"
+msgid ""
+"M:\\<path to file>\\my.ini\n"
 "\\\\<server>\\<share>\\<path to file>\\my.ini\n"
 "\\\\<server>\\C$\\Program Files\\MySQL\\MySQL Server 5.1\\my.ini\n"
 msgstr ""
@@ -5283,7 +5472,9 @@ msgid "Initializing WMI, please wait..."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:710
-msgid "Select the service to manage from the list below. It will also help to find the configuration file."
+msgid ""
+"Select the service to manage from the list below. It will also help to find "
+"the configuration file."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:717
@@ -5301,7 +5492,9 @@ msgid "Remote Windows Login (%s)"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:779
-msgid "Please enter a Windows user login and password for the remote server with rights to WMI"
+msgid ""
+"Please enter a Windows user login and password for the remote server with "
+"rights to WMI"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:790
@@ -5310,7 +5503,10 @@ msgid "Need valid user credentials to connect to server."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:800
-msgid "Windows management requires a user account on this machine which has the required privileges to query system status and to control services. For configuration file manipulation read/write access to the file is needed. "
+msgid ""
+"Windows management requires a user account on this machine which has the "
+"required privileges to query system status and to control services. For "
+"configuration file manipulation read/write access to the file is needed. "
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:805
@@ -5318,7 +5514,10 @@ msgid "Set Windows configuration parameters for this machine"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:863
-msgid "In order to manage a MySQL server it must be installed as a service. The wizard could not find any MySQL service on the target machine, hence the server instance cannot be created."
+msgid ""
+"In order to manage a MySQL server it must be installed as a service. The "
+"wizard could not find any MySQL service on the target machine, hence the "
+"server instance cannot be created."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:870
@@ -5335,7 +5534,9 @@ msgid "Testing Host Machine Settings"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:928
-msgid "The connection to the host machine is being tested. This might take a few moments depending on your network connection."
+msgid ""
+"The connection to the host machine is being tested. This might take a few "
+"moments depending on your network connection."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:930
@@ -5351,7 +5552,8 @@ msgid "Check location of start/stop commands"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:935
-msgid "Checking if commands to start and stop server are in the expected location..."
+msgid ""
+"Checking if commands to start and stop server are in the expected location..."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:937
@@ -5371,7 +5573,9 @@ msgid "Review settings"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1016
-msgid "Checks succeeded for Connection and Configuration Settings for this new Server Instance."
+msgid ""
+"Checks succeeded for Connection and Configuration Settings for this new "
+"Server Instance."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1017
@@ -5387,8 +5591,15 @@ msgid "Review Remote Management Settings"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1040
-msgid "Below is a list of all settings collected so far. This includes also values taken from templates or default values. Check if they match your actual settings and toggle 'Change Parameters' if you need to make any changes to default values. For any other change go back to the appropriate wizard page.\n\n"
-"Pay special attention if you run more than one instance of MySQL on the same machine."
+msgid ""
+"Below is a list of all settings collected so far. This includes also values "
+"taken from templates or default values. Check if they match your actual "
+"settings and toggle 'Change Parameters' if you need to make any changes to "
+"default values. For any other change go back to the appropriate wizard "
+"page.\n"
+"\n"
+"Pay special attention if you run more than one instance of MySQL on the same "
+"machine."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1080
@@ -5481,8 +5692,14 @@ msgid "Information about MySQL configuration"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1152
-msgid "In order to manage the settings of the MySQL Server it is necessary to know where its configuration file resides.\n\n"
-"The configuration file may consist of several sections, each of them belonging to a different tool or server instance. Hence it is also necessary to know which section belongs to the server we are managing.\n\n"
+msgid ""
+"In order to manage the settings of the MySQL Server it is necessary to know "
+"where its configuration file resides.\n"
+"\n"
+"The configuration file may consist of several sections, each of them "
+"belonging to a different tool or server instance. Hence it is also necessary "
+"to know which section belongs to the server we are managing.\n"
+"\n"
 "Please specify this information below."
 msgstr ""
 
@@ -5564,8 +5781,12 @@ msgid "Specify commands to be used to manage the MySQL server."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1337
-msgid "The values on this page comprise rather low level commands, which are used to control the MySQL server instance (start or stop it) and others.\n\n"
-"If you are unsure what these values mean leave them untouched. The defaults are usually a good choice already (for single server machines)."
+msgid ""
+"The values on this page comprise rather low level commands, which are used "
+"to control the MySQL server instance (start or stop it) and others.\n"
+"\n"
+"If you are unsure what these values mean leave them untouched. The defaults "
+"are usually a good choice already (for single server machines)."
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1349
@@ -5577,7 +5798,8 @@ msgid "Command to stop the MySQL server:"
 msgstr ""
 
 #: ../frontend/common/new_server_instance_wizard.cpp:1360
-msgid "Check this box if you want or need the above commands \n"
+msgid ""
+"Check this box if you want or need the above commands \n"
 "to be executed with elevated Operating System Privileges."
 msgstr ""
 
@@ -5672,7 +5894,8 @@ msgstr ""
 
 #: ../frontend/common/new_connection_wizard.cpp:147
 #, c-format
-msgid "A connection with the name %s exists already. Please choose another one."
+msgid ""
+"A connection with the name %s exists already. Please choose another one."
 msgstr ""
 
 #: ../frontend/common/new_connection_wizard.cpp:148
@@ -5692,7 +5915,9 @@ msgid "Python Script"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:101
-msgid "Python Scripts that can be manually executed in the Scripting IDE or from the command line."
+msgid ""
+"Python Scripts that can be manually executed in the Scripting IDE or from "
+"the command line."
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:104
@@ -5708,7 +5933,9 @@ msgid "Python Module"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:112
-msgid "Python modules containing functions exported to be used by other scripts, modules or plugins in Workbench."
+msgid ""
+"Python modules containing functions exported to be used by other scripts, "
+"modules or plugins in Workbench."
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:123
@@ -5720,7 +5947,8 @@ msgid "Script File Name:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:138
-msgid "The default location for scripts is in the scripts folder\n"
+msgid ""
+"The default location for scripts is in the scripts folder\n"
 "of your Workbench configuration folder."
 msgstr ""
 
@@ -5729,7 +5957,8 @@ msgid "Template:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:150
-msgid "Select the template for the type of plugin you want to write.\n"
+msgid ""
+"Select the template for the type of plugin you want to write.\n"
 "A file may contain as many plugin functions as you want."
 msgstr ""
 
@@ -5738,7 +5967,8 @@ msgid "Plugin Name:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:158
-msgid "Provide a unique name for the plugin. Use alphanumeric\n"
+msgid ""
+"Provide a unique name for the plugin. Use alphanumeric\n"
 "characters and _ only."
 msgstr ""
 
@@ -5748,7 +5978,8 @@ msgid "File Name:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:164
-msgid "Name of the plugin file, must be unique and contain only\n"
+msgid ""
+"Name of the plugin file, must be unique and contain only\n"
 "alphanumeric chars and _. Specify name only, without a path."
 msgstr ""
 
@@ -5757,7 +5988,8 @@ msgid "Module Name:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:180
-msgid "Provide a name for the module. Use alphanumeric\n"
+msgid ""
+"Provide a name for the module. Use alphanumeric\n"
 "characters and _ only."
 msgstr ""
 
@@ -5766,12 +5998,14 @@ msgid "Function Name:"
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:186
-msgid "Provide a name for the module function. Use alphanumeric\n"
+msgid ""
+"Provide a name for the module function. Use alphanumeric\n"
 "characters and _ only."
 msgstr ""
 
 #: ../frontend/common/grt_plugin_wizard.cpp:192
-msgid "Name of the module file, must be unique and contain only\n"
+msgid ""
+"Name of the module file, must be unique and contain only\n"
 "alphanumeric chars and _. Specify name only, without a path."
 msgstr ""
 
@@ -5845,9 +6079,11 @@ msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:256
 #: ../frontend/common/server_instance_editor.cpp:260
-msgid "Path to the SSH private key to use for connecting to the remote SSH server.\n"
+msgid ""
+"Path to the SSH private key to use for connecting to the remote SSH server.\n"
 "The key must be in the format used by OpenSSH. If you do not use OpenSSH to\n"
-"generate the key (ssh-keygen), you may need to convert your key to that format."
+"generate the key (ssh-keygen), you may need to convert your key to that "
+"format."
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:265
@@ -5859,13 +6095,19 @@ msgid "Detect Server Configuration..."
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:280
-msgid "Attempt to automatically detect server configuration parameters for the system,\n"
-"such as operating system type, path to configuration file, how to start/stop MySQL etc"
+msgid ""
+"Attempt to automatically detect server configuration parameters for the "
+"system,\n"
+"such as operating system type, path to configuration file, how to start/stop "
+"MySQL etc"
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:290
-msgid "Information about the server and MySQL configuration, such as path to the configuration file,\n"
-"command to start or stop it etc. You may pick a preset configuration profile or customize one for your needs."
+msgid ""
+"Information about the server and MySQL configuration, such as path to the "
+"configuration file,\n"
+"command to start or stop it etc. You may pick a preset configuration profile "
+"or customize one for your needs."
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:301
@@ -5889,7 +6131,9 @@ msgid "Windows Service Name:"
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:343
-msgid "The following options specify how Workbench should perform certain management actions.\n"
+msgid ""
+"The following options specify how Workbench should perform certain "
+"management actions.\n"
 "Commands given here are the same as if they would be run in a system shell."
 msgstr ""
 
@@ -5906,19 +6150,24 @@ msgid "Stop MySQL:"
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:368
-msgid "Elevate privileges to execute start/stop commands\n"
+msgid ""
+"Elevate privileges to execute start/stop commands\n"
 "and write configuration data"
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:371
-msgid "Acquire administrator rights to execute start/stop commands\n"
+msgid ""
+"Acquire administrator rights to execute start/stop commands\n"
 "and write configuration data"
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:375
-msgid "When sudo is used in Linux like systems, a certain set of parameters are passed to it.\n"
+msgid ""
+"When sudo is used in Linux like systems, a certain set of parameters are "
+"passed to it.\n"
 "In certain environments, it may be necessary to override these parameters.\n"
-"Look at the Workbench log file to determine the parameters being currently used. Leave it blank if unsure."
+"Look at the Workbench log file to determine the parameters being currently "
+"used. Leave it blank if unsure."
 msgstr ""
 
 #: ../frontend/common/server_instance_editor.cpp:380
@@ -5994,7 +6243,9 @@ msgstr ""
 
 #: ../frontend/common/user_defined_type_editor.cpp:395
 #, c-format
-msgid "'%s' is not a valid type name. Names may only contain alpha-numeric characters, spaces and _"
+msgid ""
+"'%s' is not a valid type name. Names may only contain alpha-numeric "
+"characters, spaces and _"
 msgstr ""
 
 #: ../frontend/common/user_defined_type_editor.cpp:402
@@ -6015,12 +6266,16 @@ msgid "Edit Type Arguments"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:111
-msgid "Specify default target MySQL version in format MAJOR.MINOR or MAJOR.MINOR.RELEASE"
+msgid ""
+"Specify default target MySQL version in format MAJOR.MINOR or MAJOR.MINOR."
+"RELEASE"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:113
-msgid "This is not valid version of MySQL.\n"
-"Specify default target MySQL version in format MAJOR.MINOR or MAJOR.MINOR.RELEASE"
+msgid ""
+"This is not valid version of MySQL.\n"
+"Specify default target MySQL version in format MAJOR.MINOR or MAJOR.MINOR."
+"RELEASE"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:244
@@ -6109,7 +6364,9 @@ msgid "Path to mysqldump Tool:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:695
-msgid "Specifiy the full path to the mysqldump tool, which is needed for the Workbench Administrator.\n"
+msgid ""
+"Specifiy the full path to the mysqldump tool, which is needed for the "
+"Workbench Administrator.\n"
 "It usually comes bundled with the MySQL server and/or client packages."
 msgstr ""
 
@@ -6119,7 +6376,8 @@ msgid "Leave blank to use bundled version."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:702
-msgid "Full path to the mysqldump tool\n"
+msgid ""
+"Full path to the mysqldump tool\n"
 "if it's not in your PATH."
 msgstr ""
 
@@ -6128,12 +6386,15 @@ msgid "Path to mysql Tool:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:708
-msgid "Specifiy the full path to the mysql command line client tool, which is needed for the Workbench Administrator.\n"
+msgid ""
+"Specifiy the full path to the mysql command line client tool, which is "
+"needed for the Workbench Administrator.\n"
 "It usually comes bundled with the MySQL server and/or client packages."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:715
-msgid "Full path to the mysql tool\n"
+msgid ""
+"Full path to the mysql tool\n"
 "if it's not in your PATH."
 msgstr ""
 
@@ -6142,7 +6403,9 @@ msgid "Export Directory Path:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:722
-msgid "Specifiy the full path to the directory where dump files should be placed by default."
+msgid ""
+"Specifiy the full path to the directory where dump files should be placed by "
+"default."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:724
@@ -6154,7 +6417,10 @@ msgid "Save snapshot of open editors on close"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:748
-msgid "A snapshot of all open scripts is saved when the SQL Editor is closed. Next time it is opened to the same connection that state is restored. Unsaved files will remain unsaved, but their contents will be preserved."
+msgid ""
+"A snapshot of all open scripts is saved when the SQL Editor is closed. Next "
+"time it is opened to the same connection that state is restored. Unsaved "
+"files will remain unsaved, but their contents will be preserved."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:758
@@ -6162,7 +6428,9 @@ msgid "Auto-save scripts interval:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:759
-msgid "Interval to perform auto-saving of all open script tabs. The scripts will be restored from the last auto-saved version if Workbench unexpectedly quits."
+msgid ""
+"Interval to perform auto-saving of all open script tabs. The scripts will be "
+"restored from the last auto-saved version if Workbench unexpectedly quits."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:764
@@ -6170,9 +6438,11 @@ msgid "Create new tabs as Query tabs instead of File"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:765
-msgid "Unsaved Query tabs do not get a close confirmation, unlike File tabs.\n"
+msgid ""
+"Unsaved Query tabs do not get a close confirmation, unlike File tabs.\n"
 "However, once saved, such tabs will also get unsaved change confirmations.\n"
-"If Snapshot saving is enabled, query tabs are always autosaved to temporary files when the connection is closed."
+"If Snapshot saving is enabled, query tabs are always autosaved to temporary "
+"files when the connection is closed."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:774
@@ -6180,7 +6450,9 @@ msgid "Restore expanded state of the active schema objects"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:775
-msgid "Re-expand (and reload) group nodes that were previously expanded in the active schema when the editor was last closed."
+msgid ""
+"Re-expand (and reload) group nodes that were previously expanded in the "
+"active schema when the editor was last closed."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:783
@@ -6196,7 +6468,9 @@ msgid "Show Schema Contents in Schema Tree"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:796
-msgid "Whether to show schema contents (tables, views and routine names) in schema tree."
+msgid ""
+"Whether to show schema contents (tables, views and routine names) in schema "
+"tree."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:803
@@ -6204,7 +6478,9 @@ msgid "Show Metadata and Internal Schemas"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:805
-msgid "Whether to show internal schemas in the schema tree (eg INFORMATION_SCHEMA, mysql and schemas starting with '.')."
+msgid ""
+"Whether to show internal schemas in the schema tree (eg INFORMATION_SCHEMA, "
+"mysql and schemas starting with '.')."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:812
@@ -6216,7 +6492,9 @@ msgid "DBMS connection keep-alive interval (in seconds):"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:818
-msgid "Time interval between sending keep-alive messages to DBMS. Set to 0 to not send keep-alive messages."
+msgid ""
+"Time interval between sending keep-alive messages to DBMS. Set to 0 to not "
+"send keep-alive messages."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:823
@@ -6224,7 +6502,9 @@ msgid "DBMS connection read timeout interval (in seconds):"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:824
-msgid "The maximum amount of time the query can take to return data from the DBMS.Set 0 to skip the read timeout."
+msgid ""
+"The maximum amount of time the query can take to return data from the DBMS."
+"Set 0 to skip the read timeout."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:828
@@ -6244,7 +6524,9 @@ msgid "Internal Workbench Schema:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:843
-msgid "This schema will be used by MySQL Workbench to store information required for certain operations."
+msgid ""
+"This schema will be used by MySQL Workbench to store information required "
+"for certain operations."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:848
@@ -6252,7 +6534,13 @@ msgid "Safe Updates (rejects UPDATEs and DELETEs with no restrictions)"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:849
-msgid "Enables the SQL_SAFE_UPDATES option for the session. If enabled, MySQL aborts UPDATE or DELETE statements that do not use a key in the WHERE clause or a LIMIT clause. This makes it possible to catch UPDATE or DELETE statements where keys are not used properly and that would probably change or delete a large number of rows. Changing this option requires a reconnection (Query -> Reconnect to Server)"
+msgid ""
+"Enables the SQL_SAFE_UPDATES option for the session. If enabled, MySQL "
+"aborts UPDATE or DELETE statements that do not use a key in the WHERE clause "
+"or a LIMIT clause. This makes it possible to catch UPDATE or DELETE "
+"statements where keys are not used properly and that would probably change "
+"or delete a large number of rows. Changing this option requires a "
+"reconnection (Query -> Reconnect to Server)"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:870
@@ -6264,10 +6552,19 @@ msgid "Default SQL_MODE for syntax checker:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:888
-msgid "Value of SQL_MODE DBMS session variable customizes the rules and restrictions for SQL syntax and semantics. See MySQL Server reference for details.\n"
-"This globally defined parameter determines initial value for same named parameter in each newly created model. Model scoped same named parameter in its turn affects SQL parsing within the model, and defines the value of SQL_MODE session variable when connecting to DBMS.\n"
-"Note: Empty value for this parameter will cause Workbench to treat SQL_MODE as empty string when parsing SQL within the model, but will leave DBMS session variable at its default value.\n"
-"To force Workbench to reset SQL_MODE session variable as well, this parameter needs to be set to a whitespace symbol."
+msgid ""
+"Value of SQL_MODE DBMS session variable customizes the rules and "
+"restrictions for SQL syntax and semantics. See MySQL Server reference for "
+"details.\n"
+"This globally defined parameter determines initial value for same named "
+"parameter in each newly created model. Model scoped same named parameter in "
+"its turn affects SQL parsing within the model, and defines the value of "
+"SQL_MODE session variable when connecting to DBMS.\n"
+"Note: Empty value for this parameter will cause Workbench to treat SQL_MODE "
+"as empty string when parsing SQL within the model, but will leave DBMS "
+"session variable at its default value.\n"
+"To force Workbench to reset SQL_MODE session variable as well, this "
+"parameter needs to be set to a whitespace symbol."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:903
@@ -6275,7 +6572,9 @@ msgid "SQL Identifiers are Case Sensitive"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:905
-msgid "Whether to treat identifiers separately if their names differ only in letter case."
+msgid ""
+"Whether to treat identifiers separately if their names differ only in letter "
+"case."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:914
@@ -6283,7 +6582,9 @@ msgid "Non-Standard SQL Delimiter:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:919
-msgid "Delimiter used for statements that use the semicolon as part of their syntax (e.g. stored routines)"
+msgid ""
+"Delimiter used for statements that use the semicolon as part of their syntax "
+"(e.g. stored routines)"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:927
@@ -6303,7 +6604,9 @@ msgid "Enable Code Completion in Editors"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:968
-msgid "If enabled SQL editors display a code completion list when pressing the defined hotkey"
+msgid ""
+"If enabled SQL editors display a code completion list when pressing the "
+"defined hotkey"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:975
@@ -6311,7 +6614,10 @@ msgid "Automatically Start Code Completion"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:978
-msgid "Available only if code completion is enabled. By activating this option code completion will be started automatically when you type something and wait a moment"
+msgid ""
+"Available only if code completion is enabled. By activating this option code "
+"completion will be started automatically when you type something and wait a "
+"moment"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:984
@@ -6319,7 +6625,9 @@ msgid "Use UPPERCASE keywords on completion"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:987
-msgid "Normally keywords are shown and inserted as they come from the code editor configuration file. With this swich they are always upper-cased instead."
+msgid ""
+"Normally keywords are shown and inserted as they come from the code editor "
+"configuration file. With this swich they are always upper-cased instead."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1006
@@ -6327,7 +6635,9 @@ msgid "Comment type to use for comment shortcut:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1013
-msgid "Default comment type for SQL Query editor, to be used when the comment shortcut is used."
+msgid ""
+"Default comment type for SQL Query editor, to be used when the comment "
+"shortcut is used."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1025
@@ -6335,7 +6645,8 @@ msgid "Max syntax error count:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1029
-msgid "Maximum number of errors for syntax checking.\n"
+msgid ""
+"Maximum number of errors for syntax checking.\n"
 "Syntax errors aren't highlighted beyond this threshold.\n"
 "Set to 0 to show all errors."
 msgstr ""
@@ -6369,7 +6680,9 @@ msgid "Reformat DDL for Views"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1120
-msgid "Whether to automatically reformat View DDL returned by the server. The MySQL server does not store the formatting information for View definitions."
+msgid ""
+"Whether to automatically reformat View DDL returned by the server. The MySQL "
+"server does not store the formatting information for View definitions."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1140
@@ -6381,7 +6694,9 @@ msgid "Max. query length to store in history (in bytes):"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1157
-msgid "Queries beyond specified size will not be saved in the history when executed.\n"
+msgid ""
+"Queries beyond specified size will not be saved in the history when "
+"executed.\n"
 "Set to 0 to save any executed query or script"
 msgstr ""
 
@@ -6390,7 +6705,8 @@ msgid "Continue SQL script execution on errors (by default)"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1166
-msgid "Whether to continue skipping failed SQL statements when running a script."
+msgid ""
+"Whether to continue skipping failed SQL statements when running a script."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1172
@@ -6398,9 +6714,11 @@ msgid "New connections use auto commit mode"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1174
-msgid "Sets the default autocommit mode for connections.\n"
+msgid ""
+"Sets the default autocommit mode for connections.\n"
 "When enabled, each statement will be committed immediately.\n"
-"NOTE: all query tabs in the same connection share the same transaction. To have independent transactions, you must open a new connection."
+"NOTE: all query tabs in the same connection share the same transaction. To "
+"have independent transactions, you must open a new connection."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1185
@@ -6416,8 +6734,11 @@ msgid "SELECT Query Results"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1208
-msgid "Whether every select query to be implicitly adjusted to limit result set to specified number of rows by appending the LIMIT keyword to the query.\n"
-"If enabled it's still possible to load entire result set by pressing \"Fetch All\" button."
+msgid ""
+"Whether every select query to be implicitly adjusted to limit result set to "
+"specified number of rows by appending the LIMIT keyword to the query.\n"
+"If enabled it's still possible to load entire result set by pressing \"Fetch "
+"All\" button."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1219
@@ -6425,7 +6746,9 @@ msgid "Limit Rows Count:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1223
-msgid "Every select query to be implicitly adjusted to limit result set to specified number of rows."
+msgid ""
+"Every select query to be implicitly adjusted to limit result set to "
+"specified number of rows."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1232
@@ -6433,7 +6756,9 @@ msgid "Max. Field Value Length to Display (in bytes):"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1236
-msgid "Symbols beyond specified threashold will be truncated when showing in the grid. Doesn't affect editing field values.\n"
+msgid ""
+"Symbols beyond specified threashold will be truncated when showing in the "
+"grid. Doesn't affect editing field values.\n"
 "Set to -1 to disable truncation."
 msgstr ""
 
@@ -6442,10 +6767,15 @@ msgid "Treat BINARY/VARBINARY as nonbinary character string"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1247
-msgid "Whether to treat binary byte strings as nonbinary character strings.\n"
-"Binary byte string values do not appear in results grid and are marked as a BLOB values that are supposed to be viewed/edited by means of BLOB editor.\n"
-"Nonbinary character string values are shown right in results grid and can be edited with either cell's in-place editor or BLOB editor.\n"
-"Warning: Since binary byte strings tend to contain zero-bytes in their values, turning this option on may lead to data truncation when viewing/editing.\n"
+msgid ""
+"Whether to treat binary byte strings as nonbinary character strings.\n"
+"Binary byte string values do not appear in results grid and are marked as a "
+"BLOB values that are supposed to be viewed/edited by means of BLOB editor.\n"
+"Nonbinary character string values are shown right in results grid and can be "
+"edited with either cell's in-place editor or BLOB editor.\n"
+"Warning: Since binary byte strings tend to contain zero-bytes in their "
+"values, turning this option on may lead to data truncation when viewing/"
+"editing.\n"
 "Note: Application restart is needed to get new option value in affect."
 msgstr ""
 
@@ -6454,7 +6784,8 @@ msgid "Confirm Data Changes"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1261
-msgid "Whether to show a dialog confirming changes to be made to a table recordset."
+msgid ""
+"Whether to show a dialog confirming changes to be made to a table recordset."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1267
@@ -6462,7 +6793,9 @@ msgid "Preserve Row Filter"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1268
-msgid "If set, keep row filter active on result set changes. Otherwise the filter is reset."
+msgid ""
+"If set, keep row filter active on result set changes. Otherwise the filter "
+"is reset."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1302
@@ -6478,7 +6811,9 @@ msgid "Force use of software based rendering for EER diagrams"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1310
-msgid "Enable this option if you have drawing problems in Workbench modeling. You must restart Workbench for the option to take effect."
+msgid ""
+"Enable this option if you have drawing problems in Workbench modeling. You "
+"must restart Workbench for the option to take effect."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1319
@@ -6486,7 +6821,9 @@ msgid "Model undo history size:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1320
-msgid "Allowed values are from 1 up. Note: using high values (> 100) will increase memory usage and slow down operation."
+msgid ""
+"Allowed values are from 1 up. Note: using high values (> 100) will increase "
+"memory usage and slow down operation."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1329
@@ -6494,7 +6831,9 @@ msgid "Auto-save model interval:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1330
-msgid "Interval to perform auto-saving of the open model. The model will be restored from the last auto-saved version if Workbench unexpectedly quits."
+msgid ""
+"Interval to perform auto-saving of the open model. The model will be "
+"restored from the last auto-saved version if Workbench unexpectedly quits."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1345
@@ -6527,7 +6866,8 @@ msgid "SSH Read/Write Timeout in seconds."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1378
-msgid "Determines how long the process waits for a command output.\n"
+msgid ""
+"Determines how long the process waits for a command output.\n"
 "This is also affected by SSH Command Retry Count."
 msgstr ""
 
@@ -6540,7 +6880,9 @@ msgid "SSH Command Timeout in second."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1390
-msgid "Determines how many times we should retry reading command output after specified SSH Command Timeout option."
+msgid ""
+"Determines how many times we should retry reading command output after "
+"specified SSH Command Timeout option."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1392
@@ -6632,7 +6974,10 @@ msgid "Allow more than one instance of MySQL Workbench to run"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1527
-msgid "By default only one instance of MySQL Workbench can run at the same time. This is more resource friendly and necessary as multiple instances share the same files (settings etc.). Change at your own risk."
+msgid ""
+"By default only one instance of MySQL Workbench can run at the same time. "
+"This is more resource friendly and necessary as multiple instances share the "
+"same files (settings etc.). Change at your own risk."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1539
@@ -6640,7 +6985,13 @@ msgid "Logs"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1558
-msgid "Log level determines how serious a message has to be before it gets logged.  For example, an error is more serious than a warning, a warning is more serious than an info, etc.  So if log level is set to error, anything less serious (warning, info, etc) will not be logged.  If log level is set to warning, both warning and error will still be logged, but info and anything lower will not.  None disables all logging."
+msgid ""
+"Log level determines how serious a message has to be before it gets logged.  "
+"For example, an error is more serious than a warning, a warning is more "
+"serious than an info, etc.  So if log level is set to error, anything less "
+"serious (warning, info, etc) will not be logged.  If log level is set to "
+"warning, both warning and error will still be logged, but info and anything "
+"lower will not.  None disables all logging."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1562
@@ -6648,7 +6999,9 @@ msgid "Log Level"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1563
-msgid "Sets the \"chattyness\" of logs. Choices further down the list produce more output than the ones that preceed them."
+msgid ""
+"Sets the \"chattyness\" of logs. Choices further down the list produce more "
+"output than the ones that preceed them."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1584
@@ -6660,9 +7013,11 @@ msgid "PK Column Name:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1602
-msgid "Substitutions:\n"
+msgid ""
+"Substitutions:\n"
 "%table% - name of the table\n"
-"May be used as %table|upper%, %table|lower%, %table|capitalize%, %table|uncapitalize%"
+"May be used as %table|upper%, %table|lower%, %table|capitalize%, %table|"
+"uncapitalize%"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1607
@@ -6670,7 +7025,8 @@ msgid "PK Column Type:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1610
-msgid "Default type for use in newly added primary key columns.\n"
+msgid ""
+"Default type for use in newly added primary key columns.\n"
 "Specify a column type name or a user defined type.\n"
 "Flags such as UNSIGNED are not accepted."
 msgstr ""
@@ -6682,7 +7038,8 @@ msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1617
 #, c-format
-msgid "Substitutions:\n"
+msgid ""
+"Substitutions:\n"
 "%table% - name of the table"
 msgstr ""
 
@@ -6691,7 +7048,8 @@ msgid "Column Type:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1624
-msgid "Default type for use in newly added columns.\n"
+msgid ""
+"Default type for use in newly added columns.\n"
 "Specify a column type name or a user defined type.\n"
 "Flags such as UNSIGNED are not accepted."
 msgstr ""
@@ -6705,12 +7063,14 @@ msgid "FK Name:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1653
-msgid "Substitutions:\n"
+msgid ""
+"Substitutions:\n"
 "%table%, %stable% - name of the source table\n"
 "%dtable% - name of the destination table (where FK is added)\n"
 "%column%, %scolumn% - name of the source column\n"
 "%dcolumn% - name of the destination column\n"
-"May be used as %table|upper%, %table|lower%, %table|capitalize% or %table|uncapitalize%"
+"May be used as %table|upper%, %table|lower%, %table|capitalize% or %table|"
+"uncapitalize%"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1668
@@ -6727,7 +7087,8 @@ msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1677
 #, c-format
-msgid "Substitutions:\n"
+msgid ""
+"Substitutions:\n"
 "%stable% - name of the source table\n"
 "%dtable% - name of the destination table"
 msgstr ""
@@ -6765,7 +7126,10 @@ msgid "SQL_MODE to be used in generated scripts:"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1774
-msgid "The default value of ONLY_FULL_GROUP_BY, STRICT_TRANS_TABLES, NO_ZERO_IN_DATE, NO_ZERO_DATE, ERROR_FOR_DIVISION_BY_ZERO, NO_ENGINE_SUBSTITUTION is recommended."
+msgid ""
+"The default value of ONLY_FULL_GROUP_BY, STRICT_TRANS_TABLES, "
+"NO_ZERO_IN_DATE, NO_ZERO_DATE, ERROR_FOR_DIVISION_BY_ZERO, "
+"NO_ENGINE_SUBSTITUTION is recommended."
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1790
@@ -6777,7 +7141,8 @@ msgid "Expand New Objects"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1803
-msgid "Set the initial state of newly created objects to expanded (or collapsed)"
+msgid ""
+"Set the initial state of newly created objects to expanded (or collapsed)"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1807
@@ -6785,7 +7150,9 @@ msgid "Propagate Object Color Changes to All Diagrams"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1809
-msgid "If an object figure's color is changed, all figures in all diagrams that represent the same object are also updated"
+msgid ""
+"If an object figure's color is changed, all figures in all diagrams that "
+"represent the same object are also updated"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1830
@@ -6813,7 +7180,9 @@ msgid "Show Column Flags"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1857
-msgid "Show column flags such as NOT NULL or UNSIGNED along their names in table figures"
+msgid ""
+"Show column flags such as NOT NULL or UNSIGNED along their names in table "
+"figures"
 msgstr ""
 
 #: ../frontend/common/preferences_form.cpp:1870
@@ -6933,7 +7302,8 @@ msgstr ""
 
 #: ../modules/db.mysql.sqlparser/src/mysql_sql_schema_rename.cpp:122
 #, c-format
-msgid "Totally processed statements: successful (%i), errors (%i), warnings (%i)."
+msgid ""
+"Totally processed statements: successful (%i), errors (%i), warnings (%i)."
 msgstr ""
 
 #: ../modules/db.mysql.sqlparser/src/mysql_sql_parser.cpp:177
@@ -7215,7 +7585,10 @@ msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_forward_engineer.cpp:241
 #: ../plugins/db.mysql/frontend/db_forward_engineer_script.cpp:252
-msgid "To exclude objects of a specific type from the SQL Export, disable the corresponding checkbox. Press Show Filter and add objects or patterns to the ignore list to exclude them from the export."
+msgid ""
+"To exclude objects of a specific type from the SQL Export, disable the "
+"corresponding checkbox. Press Show Filter and add objects or patterns to the "
+"ignore list to exclude them from the export."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_forward_engineer.cpp:282
@@ -7237,7 +7610,8 @@ msgid "Review the SQL Script to be Executed"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_forward_engineer.cpp:355
-msgid "This script will now be executed on the DB server to create your databases.\n"
+msgid ""
+"This script will now be executed on the DB server to create your databases.\n"
 "You may make changes before executing."
 msgstr ""
 
@@ -7282,7 +7656,10 @@ msgid "Select Changes to Apply"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:41
-msgid "Double click arrows in the list to choose whether to ignore changes, update the model with database changes or vice-versa. You can also apply an action to multiple selected rows."
+msgid ""
+"Double click arrows in the list to choose whether to ignore changes, update "
+"the model with database changes or vice-versa. You can also apply an action "
+"to multiple selected rows."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:57
@@ -7294,7 +7671,9 @@ msgid "Update the model with changes detected in the target database/script."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:60
-msgid "Ignore the change and do not update neither the database/script nor the model."
+msgid ""
+"Ignore the change and do not update neither the database/script nor the "
+"model."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:61
@@ -7310,7 +7689,9 @@ msgid "Table Mapping..."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:66
-msgid "Fix table mapping, in case tables were renamed but are not being correctly recognized as such."
+msgid ""
+"Fix table mapping, in case tables were renamed but are not being correctly "
+"recognized as such."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:68
@@ -7318,7 +7699,9 @@ msgid "Column Mapping..."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/synchronize_differences_page.cpp:70
-msgid "Fix column mapping, in case columns were renamed but are not being correctly recognized as such."
+msgid ""
+"Fix column mapping, in case columns were renamed but are not being correctly "
+"recognized as such."
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_forward_engineer_script.cpp:48
@@ -7421,7 +7804,9 @@ msgid "Forward Engineer SQL Script"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_reverse_engineer.cpp:158
-msgid "Summary of Reverse Engineered Objects:\n\n"
+msgid ""
+"Summary of Reverse Engineered Objects:\n"
+"\n"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_reverse_engineer.cpp:179
@@ -7475,7 +7860,8 @@ msgid "Resource Warning"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_reverse_engineer.cpp:351
-msgid "Too many objects are selected for auto placement.\n"
+msgid ""
+"Too many objects are selected for auto placement.\n"
 "Select fewer elements to create the EER diagram."
 msgstr ""
 
@@ -7564,8 +7950,11 @@ msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_reverse_engineer_script.cpp:253
 #, c-format
-msgid "Import of SQL script file '%s' has finished.\n\n"
-"%i tables, %i views and %i stored procedures were imported in %i schemas.\n\n"
+msgid ""
+"Import of SQL script file '%s' has finished.\n"
+"\n"
+"%i tables, %i views and %i stored procedures were imported in %i schemas.\n"
+"\n"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/db_reverse_engineer_script.cpp:258
@@ -7609,8 +7998,10 @@ msgid "schema not found in target"
 msgstr ""
 
 #: ../plugins/db.mysql/frontend/schema_matching_page.cpp:231
-msgid "The schemata from your model are missing from the target.\n"
-"If you are creating them for the first time use the Forward Engineer function."
+msgid ""
+"The schemata from your model are missing from the target.\n"
+"If you are creating them for the first time use the Forward Engineer "
+"function."
 msgstr ""
 
 #: ../plugins/db.mysql/backend/db_rev_eng_be.cpp:50
@@ -7772,11 +8163,14 @@ msgid "Name"
 msgstr ""
 
 #: ../plugins/db.mysql.editors/backend/mysql_table_editor.cpp:454
-msgid "Warning: the current server version does not allow multiple triggers for the same timing/event."
+msgid ""
+"Warning: the current server version does not allow multiple triggers for the "
+"same timing/event."
 msgstr ""
 
 #: ../plugins/db.mysql.editors/backend/mysql_table_editor.cpp:489
-msgid "Select an existing trigger in the tree to edit it.\n"
+msgid ""
+"Select an existing trigger in the tree to edit it.\n"
 "Use the context menu to add and remove triggers."
 msgstr ""
 
@@ -7790,9 +8184,13 @@ msgid "Edit Stub Table"
 msgstr ""
 
 #: ../plugins/db.mysql.editors/backend/mysql_table_editor.cpp:1356
-msgid "The table you are trying to edit is a model-only stub, created to represent missing external tables referenced by foreign keys.\n"
-"Such tables are ignored by forward engineering and synchronization.\n\n"
-"You may convert this table to a real one that appears also in the generated SQL or keep it as stub."
+msgid ""
+"The table you are trying to edit is a model-only stub, created to represent "
+"missing external tables referenced by foreign keys.\n"
+"Such tables are ignored by forward engineering and synchronization.\n"
+"\n"
+"You may convert this table to a real one that appears also in the generated "
+"SQL or keep it as stub."
 msgstr ""
 
 #: ../plugins/db.mysql.editors/backend/mysql_table_editor.cpp:1360
@@ -8064,7 +8462,8 @@ msgid "Edit Tag Categories"
 msgstr ""
 
 #: ../plugins/wb.model.tagging/backend/wb_tag_editor.cpp:281
-msgid "Some of the categories could not be deleted because they are in use by tags."
+msgid ""
+"Some of the categories could not be deleted because they are in use by tags."
 msgstr ""
 
 #: ../plugins/wb.model.tagging/backend/wb_tag_editor.cpp:301
@@ -8146,4 +8545,3 @@ msgstr ""
 #: ../plugins/wb.sqlide/sqlide_schematree_ext.py:176
 msgid "Select Row References"
 msgstr ""
-
