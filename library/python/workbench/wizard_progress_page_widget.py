@@ -75,7 +75,7 @@ class WizardTask(mforms.Box):
             return
         except Exception as e:
             if not isinstance(self, WizardThreadedTask):
-                print()
+                print("")
                 import traceback
                 traceback.print_exc()
 
@@ -200,7 +200,7 @@ class WizardThreadedTask(WizardTask):
             mforms.Utilities.perform_from_main_thread(self.set_aborted, False)
             return
         except Exception as exc:
-            print()
+            print("")
             import traceback
             traceback.print_exc()
             grt.log_error("Wizard", "Thread '%s' failed: %s\n" % (self.label, exc))

@@ -32,7 +32,7 @@ def printTableLine(fields, filler= " "):
     print("|", end=' ')
     for text, size in fields:
         print(text.ljust(size, filler), "|", end=' ')
-    print()
+    print("")
 
 
 # @wbexport makes this function be exported by the module and also describes the return and

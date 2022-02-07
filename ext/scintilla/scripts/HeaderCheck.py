@@ -27,7 +27,7 @@ def ExtractHeaders(filename):
         print(filename)
         for n in includeLines:
             print(n)
-        print()
+        print("")
     return includeLines
 
 def CheckFiles(root):

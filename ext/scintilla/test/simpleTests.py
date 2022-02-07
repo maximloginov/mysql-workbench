@@ -2375,4 +2375,4 @@ if __name__ == '__main__':
 	uu = Xite.main("simpleTests")
 	#~ for x in sorted(uu.keys()):
 		#~ print(x, uu[x])
-	#~ print()
+	#~ print("")

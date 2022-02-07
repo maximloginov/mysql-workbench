@@ -54,7 +54,7 @@ class Task(object):
             return
         except Exception as e:
             if not isinstance(self, ThreadedTask):
-                print()
+                print("")
                 import traceback
                 traceback.print_exc()
 
@@ -158,7 +158,7 @@ class ThreadedTask(Task):
             mforms.Utilities.perform_from_main_thread(self.set_aborted, False)
             return
         except Exception as exc:
-            print()
+            print("")
             import traceback
             traceback.print_exc()
             grt.log_error("Wizard", "Thread '%s' failed: %s\n" % (self.label, exc))

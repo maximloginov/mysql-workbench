@@ -489,14 +489,14 @@ class XiteWin():
 			user32.PostQuitMessage(0)
 
 	def CmdExercised(self):
-		print()
+		print("")
 		unused = sorted(self.ed.all.difference(self.ed.used))
 		print("Unused", len(unused))
-		print()
+		print("")
 		print("\n".join(unused))
-		print()
+		print("")
 		print("Used", len(self.ed.used))
-		print()
+		print("")
 		print("\n".join(sorted(self.ed.used)))
 
 	def Uncalled(self):
